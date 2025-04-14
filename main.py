@@ -1,10 +1,11 @@
 from graphics import *
+from cell import *
 
 def main():
-    window = Window(800, 600)
+    win = Window(800, 600)
 
     # Keep the window open
-    window.wait_for_close()
+    win.wait_for_close()
 
 if __name__ == "__main__":
     main()
