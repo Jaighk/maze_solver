@@ -1,5 +1,7 @@
+from abc import ABC
 from graphics import *
 from cell import *
+from maze import *
 
 def main():
     win = Window(800, 600)
