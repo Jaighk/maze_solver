@@ -50,7 +50,7 @@ class Cell:
         center_to = Point(to_cell._x2 - ((to_cell._x2 - to_cell._x1)/2), to_cell._y1 - ((to_cell._y1 - to_cell._y2)/2))
 
         fill_color = "red"
-        if undo is None:
+        if undo:
             fill_color = "gray"
 
 
